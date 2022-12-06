@@ -1,0 +1,21 @@
+/* desktop */
+@media screen and (min-width: 980px) {
+	.container {
+		max-width: 1180px;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.h1-heading {
+		font-size: 48px;
+	}
+}
+
+/* mobile */
+@media screen and (max-width: 980px) {
+	.h1-heading {
+		font-size: 28px;
+	}
+}

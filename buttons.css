@@ -1,0 +1,39 @@
+.primary-button {
+	background: #ce3ff5;
+	cursor: pointer;
+	padding: 11px 35px 11px 20px;
+	border-radius: 30px;
+	font-weight: 600;
+  	font-size: 16px;
+	border: 1px solid #6b1185;
+	color: white;
+}
+
+.secondary-button {
+	background: #7c0fe6;
+	cursor: pointer;
+	padding: 11px 35px 11px 20px;
+	border-radius: 30px;
+	font-weight: 600;
+  	font-size: 16px;
+	border: 1px solid #7c0fe6;
+	color: white;
+}
+
+.tertiary-button {
+	
+}
+
+/*Desktop*/
+@media screen and (min-width: 980px) {
+	.primary-button {
+		width: 200px;
+	}
+}
+
+/*mobile*/
+@media screen and (max-width: 980px) {
+	.primary-button {
+		width: 100%;
+	}
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="header.css">
+		<link rel="stylesheet" href="styles-genel.css">
+		<link rel="stylesheet" href="bootstrap.css">
+		<link rel="stylesheet" href="spacing-bootstrap.css">
+		<link rel="stylesheet" href="sliders.css">
+		<link rel="stylesheet" href="footer.css">
+		<link rel="stylesheet" href="text-bootstrap.css">
+		<link rel="stylesheet" href="plans.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="buttons.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+		<script  src="https://kit.fontawesome.com/1cc38a3646.js" crossorigin="anonymous"></script>
+		<title>Team Evolution</title>
+	</head>
+	<body>
+
+	<!-- Header -->
+		<div class="header">
+			<div class="container d-flex">
+				<div class="logo">
+						<img src="imagenes/LogoTE3-05-05.svg" alt="Team Evolution">
+				</div>
+
+				<div class="hamburger">
+					<div class="bars1"></div>
+					<div class="bars2"></div>
+					<div class="bars3"></div>
+				</div>
+
+				<ul class="nav-links">
+					<li><a href="#">planes </a></li>
+					<li><a  href="#">Contactenos</a></li>
+					<li><a  href="#">Nuestro Equipo </a></li> 
+					<li><button class="login-button" href="#">Español-English</button></li>
+				</ul>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	<!-- Header -->
+
+	<!-- Sliders -->
+	<ul class="slider">
+		<li>
+			<input type="radio" id="sbutton1" name="sradio" checked>
+			<label for="sbutton1"></label>
+			<img src="imagenes/imagen1.jpg" alt="">
+		</li>
+		<!-- more Sliders
+		<li>
+			<input type="radio" id="sbutton2" name="sradio">
+			<label for="sbutton2"></label>
+			<img src="imagenes/imagen2.jpg" alt="">
+		</li>
+	
+		<li>
+			<input type="radio" id="sbutton3" name="sradio">
+			<label for="sbutton3"></label>
+			<img src="imagenes/imagen3.jpg" alt="">
+		</li>
+		<li>
+			<input type="radio" id="sbutton4" name="sradio">
+			<label for="sbutton4"></label>
+			<img src="imagenes/imagen4.jpg" alt="">
+		</li>
+		-->
+	</ul>
+
+	<!-- Sliders -->
+
+	<!-- Plans-->
+	<div class="container-plans">
+		<div class="tabla">
+			<div class="titulo">
+					<span i class="fa-solid fa-gem"></i></span>
+					<h2>Economico</h2>
+			</div>
+			<div class="precio">
+					<h3>$ <span>25</span></h3>
+			</div>
+			<div class="descripcion">
+					<ul>
+							<li><i class="fa-solid fa-check"></i> 10GB Espacio</i></li>
+							<li><i class="fa-solid fa-check"></i> 5 Dominios</i></li>
+							<li><i class="fa-solid fa-check"></i> 10 cuentas de correo</i></li>
+							<li><i class="fa-solid fa-xmark"></i></i> Soporte Economico</i></li>
+					</ul>
+			</div>
+			<div class="enlace">
+					<a href="#">comprar</a>
+			</div>
+		</div>
+		<div class="tabla">
+			<div class="titulo">
+					<span i class="fa-solid fa-gem"></i></span>
+					<h2>Premiun</h2>
+			</div>
+			<div class="precio">
+					<h3>$ <span>50</span></h3>
+			</div>
+			<div class="descripcion">
+				<ul>
+					<li><i class="fa-solid fa-check"></i> 100GB Espacio</i></li>
+					<li><i class="fa-solid fa-check"></i> 10 Dominios</i></li>
+					<li><i class="fa-solid fa-check"></i> 50 cuentas de correo</i></li>
+					<li><i class="fa-solid fa-check"></i></i> Soporte Premiun</i></li>
+				</ul>
+			</div>
+			<div class="enlace">
+					<a href="#">comprar</a>
+			</div>
+		</div>
+		<div class="tabla">
+			<div class="titulo">
+				<span i class="fa-solid fa-gem"></i></span>
+				<h2>Empresarial</h2>
+			</div>
+			<div class="precio">
+					<h3>$ <span>100</span></h3>
+			</div>
+			<div class="descripcion">
+				<ul>
+					<li><i class="fa-solid fa-check"></i> Espacio Ilimitado</i></li>
+					<li><i class="fa-solid fa-check"></i> 10 Dominios</i></li>
+					<li><i class="fa-solid fa-check"></i> Correos Ilimitados</i></li>
+					<li><i class="fa-solid fa-check"></i></i> Soporte Empresarial</i></li>
+				</ul>
+			</div>
+			<div class="enlace">
+				<a href="#">comprar</a>
+			</div>
+		</div>
+	</div>
+	<!-- Plans-->
+
+	<!-- Form-->
+	<div id="form-contact-us">
+		<div class="container">
+			<h2 class="contact-us">Contact <span>US</span></h2>
+			<p class="text-center body-text mb-md-4 mb-3">We advise you completely free of charge</p>
+			<div class="contact-wrapper">
+				<div class="contact-form">
+					<form action="">
+							<p>
+								<label for="fullname">Full name</label>
+								<input type="text" name="fullname" id="fullname" class="mt-3">  
+							</p>
+							<p>
+								<label >Email </label>
+								<input type="email" name="email" class="mt-3">  
+							</p>
+							<p>
+								<label>Phone</label>
+								<input type="tel" name="phone" class="mt-3">
+							</p>
+							<p class="block">
+								<label>Message</label>
+								<textarea name="message"rows="3" class="mt-3"></textarea>
+							</p>
+							<p class="block button-contact-us">
+							<button type="submit" class="primary-button">
+									Send 
+							</button>
+					</form>
+				</div>
+				<img src="imagenes/bg-contact-us-form.jpg" alt="Contact us" class="image-contact-us d-none-mb">
+			</div>
+		</div>
+	</div>
+	<!-- Form-->
+
+	<!-- Footer-->
+	<footer class="footer-distributed">
+		<div class="container">
+			<div class="footer-left">
+				<img src="imagenes/LogoTE3-05-05.svg" alt="Team Evolution" class="logo-footer">
+				<p class="footer-links">
+						<a href="#">Home</a>
+						|
+						<a href="#">Contact Us</a>
+						|
+						<a href="#">our team</a>
+				</p>
+				<p class="footer-company-name">Copyright © 2022 <strong>TeamEvolution</strong> All rights reserved</p>
+			</div>
+			<div class="footer-center">
+				<div class="d-none-mb">
+						<i class="fa fa-map-marker"></i>
+						<p><span>Bogotá</span></p>
+				</div>
+				<div class="d-none-mb">
+						<i class="fa fa-phone"></i>
+						<p>+91 74**9**258</p>
+				</div>
+				<div>
+						<i class="fa fa-envelope"></i>
+						<p><a href="mailto:teamevolution.soft@gmail.com">teamevolution.soft@gmail.com</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+						<span>Company information</span>
+						<strong>TeamEvolution</strong> is a Youtube channel where you can find more creative CSS Animations
+						and
+						Effects along with
+						HTML, JavaScript and Projects using C/C++.
+				</p>
+				<div class="footer-icons">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer-->
+	<body>
+</html>
